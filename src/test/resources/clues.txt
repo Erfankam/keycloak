@@ -1,0 +1,16 @@
+ curl -X POST   http://localhost:8080/realms/testrealm/protocol/openid-connect/token  --data "grant_type=password" --data "client_id=testclient" --data "client_secret=l1DhIWLhUNcxiwsbKM77UaKkp9nvv7OX" --data "username=testuser" --data "password=test"
+ 
+ 
+  curl -X POST   http://localhost:8080/realms/testrealm/protocol/openid-connect/token   -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJLVXJYcjNVcEtDcXJxaHJuZjNmY09ndVBwYXZtUjV0NnhDMjhhSHRaSk5vIn0.eyJleHAiOjE2OTgzMzY5MTksImlhdCI6MTY5ODMzNjYxOSwianRpIjoiMzkxMmI0MzctNGI1OC00OGZiLWJkOTEtYmI0NDhlOTVjYWI5IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy90ZXN0cmVhbG0iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYWY1NmIyMjItNzFiYy00YzZhLWE2NjMtNDhiYmJiNGQ2OWJlIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoidGVzdGNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI5MzZmYjI4MS0wNGM3LTRmMjYtYTUzOS04YWU2OWVjZGRiNGEiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLXRlc3QiLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiOTM2ZmIyODEtMDRjNy00ZjI2LWE1MzktOGFlNjllY2RkYjRhIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJ0ZXN0IHVzZXIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ0ZXN0dXNlciIsImdpdmVuX25hbWUiOiJ0ZXN0IiwiZmFtaWx5X25hbWUiOiJ1c2VyIn0.LB86hD5MT4VzPKNmF8cSOcZKiC5Xcc_mKzIxgfsiJz5roeWx21cm5AmIPlJoyg5QZjAIshJ3-nLEeHtQg3trkILgSkA-6jnR516PID3oWVsRJufnewdCph7n3lQJSuw6V7MNLVcDtfFG-tMYLGWcRQD9SCuKD4wwgNB-qtoNbAjAKC8J_rTDMl3cK-ofAXaRBd1LRyd-GhPXCKk8TS4X-l0p8cQ3EH6O8QbcH6SQtF2IGhMDeKB3gV4xu4JvaiYX0ctvPUd9VpYnV5CLmxBvUV_xHQIhXHassx7uSKgZ-FNNMSPMm17Q7BT6_RRHNAAekG6UZMi9fqK5v88SVYUNtg"   --data "grant_type=urn:ietf:params:oauth:grant-type:uma-ticket" --data "audience=testclient"
+  
+  
+  https://stackoverflow.com/questions/64983064/keycloak-token-exchange-fails-with-invalid-token-error
+  
+  
+  https://stackoverflow.com/questions/53721588/keycloak-token-introspection-always-fails-with-activefalse
+  
+  https://medium.com/geekculture/token-exchange-using-keycloak-204da039b5e6
+  
+  https://www.keycloak.org/docs/latest/securing_apps/
+  
+  https://medium.com/@souringhosh/keycloak-token-exchange-usage-with-google-sign-in-cd9127ebc96d
