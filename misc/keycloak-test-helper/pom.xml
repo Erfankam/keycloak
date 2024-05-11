@@ -41,5 +41,9 @@
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-services</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-admin-client-jee</artifactId>
+        </dependency>
     </dependencies>
 </project>
